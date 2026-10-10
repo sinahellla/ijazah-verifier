@@ -1,0 +1,793 @@
+skenario,citra,metode,hasil_ocr,cer,tesseract_error
+A_data_asli,01_HighQuality_Enhanced.jpg,none (grayscale saja),571012022000056,0.0,False
+A_data_asli,02_LowContrast.jpg,none (grayscale saja),571012022000056,0.0,False
+A_data_asli,03_Blurred.jpg,none (grayscale saja),571012022000056,0.0,False
+A_data_asli,04_HighNoise.jpg,none (grayscale saja),571012022000056,0.0,False
+A_data_asli,05_LowResolution_Upsampled.jpg,none (grayscale saja),571012022000056,0.0,False
+A_data_asli,06_Faded_Underexposed.jpg,none (grayscale saja),571012022000056,0.0,False
+A_data_asli,07_ColorShift_WarmTint.jpg,none (grayscale saja),571012022000056,0.0,False
+A_data_asli,08_JPEGCompression_Artifacts.jpg,none (grayscale saja),571012022000056,0.0,False
+A_data_asli,09_CombinedDegradation.jpg,none (grayscale saja),571012022000056,0.0,False
+A_data_asli,01_HighQuality_Enhanced.jpg,Histogram Equalization,,1.0,False
+A_data_asli,02_LowContrast.jpg,Histogram Equalization,,1.0,False
+A_data_asli,03_Blurred.jpg,Histogram Equalization,,1.0,False
+A_data_asli,04_HighNoise.jpg,Histogram Equalization,,1.0,False
+A_data_asli,05_LowResolution_Upsampled.jpg,Histogram Equalization,,1.0,False
+A_data_asli,06_Faded_Underexposed.jpg,Histogram Equalization,,1.0,False
+A_data_asli,07_ColorShift_WarmTint.jpg,Histogram Equalization,,1.0,False
+A_data_asli,08_JPEGCompression_Artifacts.jpg,Histogram Equalization,,1.0,False
+A_data_asli,09_CombinedDegradation.jpg,Histogram Equalization,,1.0,False
+A_data_asli,01_HighQuality_Enhanced.jpg,CLAHE,,1.0,True
+A_data_asli,02_LowContrast.jpg,CLAHE,571012022000056,0.0,False
+A_data_asli,03_Blurred.jpg,CLAHE,571012022000056,0.0,False
+A_data_asli,04_HighNoise.jpg,CLAHE,571012022000056,0.0,False
+A_data_asli,05_LowResolution_Upsampled.jpg,CLAHE,571012022000056,0.0,False
+A_data_asli,06_Faded_Underexposed.jpg,CLAHE,571012022000056,0.0,False
+A_data_asli,07_ColorShift_WarmTint.jpg,CLAHE,,1.0,True
+A_data_asli,08_JPEGCompression_Artifacts.jpg,CLAHE,571012022000056,0.0,False
+A_data_asli,09_CombinedDegradation.jpg,CLAHE,571012022000056,0.0,False
+A_data_asli,01_HighQuality_Enhanced.jpg,Contrast Stretching,571012022000056,0.0,False
+A_data_asli,02_LowContrast.jpg,Contrast Stretching,571012022000056,0.0,False
+A_data_asli,03_Blurred.jpg,Contrast Stretching,571012022000056,0.0,False
+A_data_asli,04_HighNoise.jpg,Contrast Stretching,571012022000056,0.0,False
+A_data_asli,05_LowResolution_Upsampled.jpg,Contrast Stretching,571012022000056,0.0,False
+A_data_asli,06_Faded_Underexposed.jpg,Contrast Stretching,571012022000056,0.0,False
+A_data_asli,07_ColorShift_WarmTint.jpg,Contrast Stretching,571012022000056,0.0,False
+A_data_asli,08_JPEGCompression_Artifacts.jpg,Contrast Stretching,571012022000056,0.0,False
+A_data_asli,09_CombinedDegradation.jpg,Contrast Stretching,571012022000056,0.0,False
+A_data_asli,01_HighQuality_Enhanced.jpg,Brightness Adjustment,571012022000056,0.0,False
+A_data_asli,02_LowContrast.jpg,Brightness Adjustment,571012022000056,0.0,False
+A_data_asli,03_Blurred.jpg,Brightness Adjustment,571012022000056,0.0,False
+A_data_asli,04_HighNoise.jpg,Brightness Adjustment,571012022000056,0.0,False
+A_data_asli,05_LowResolution_Upsampled.jpg,Brightness Adjustment,571012022000056,0.0,False
+A_data_asli,06_Faded_Underexposed.jpg,Brightness Adjustment,571012022000056,0.0,False
+A_data_asli,07_ColorShift_WarmTint.jpg,Brightness Adjustment,571012022000056,0.0,False
+A_data_asli,08_JPEGCompression_Artifacts.jpg,Brightness Adjustment,571012022000056,0.0,False
+A_data_asli,09_CombinedDegradation.jpg,Brightness Adjustment,571012022000056,0.0,False
+A_data_asli,01_HighQuality_Enhanced.jpg,Gamma Correction,571012022000056,0.0,False
+A_data_asli,02_LowContrast.jpg,Gamma Correction,571012022000056,0.0,False
+A_data_asli,03_Blurred.jpg,Gamma Correction,571012022000056,0.0,False
+A_data_asli,04_HighNoise.jpg,Gamma Correction,571012022000056,0.0,False
+A_data_asli,05_LowResolution_Upsampled.jpg,Gamma Correction,571012022000056,0.0,False
+A_data_asli,06_Faded_Underexposed.jpg,Gamma Correction,571012022000056,0.0,False
+A_data_asli,07_ColorShift_WarmTint.jpg,Gamma Correction,571012022000056,0.0,False
+A_data_asli,08_JPEGCompression_Artifacts.jpg,Gamma Correction,571012022000056,0.0,False
+A_data_asli,09_CombinedDegradation.jpg,Gamma Correction,571012022000056,0.0,False
+A_data_asli,01_HighQuality_Enhanced.jpg,Median + Stretching,571012022000056,0.0,False
+A_data_asli,02_LowContrast.jpg,Median + Stretching,571012022000056,0.0,False
+A_data_asli,03_Blurred.jpg,Median + Stretching,571012022000056,0.0,False
+A_data_asli,04_HighNoise.jpg,Median + Stretching,571012022000056,0.0,False
+A_data_asli,05_LowResolution_Upsampled.jpg,Median + Stretching,571012022000056,0.0,False
+A_data_asli,06_Faded_Underexposed.jpg,Median + Stretching,571012022000056,0.0,False
+A_data_asli,07_ColorShift_WarmTint.jpg,Median + Stretching,571012022000056,0.0,False
+A_data_asli,08_JPEGCompression_Artifacts.jpg,Median + Stretching,571012022000056,0.0,False
+A_data_asli,09_CombinedDegradation.jpg,Median + Stretching,571012022000056,0.0,False
+A_data_asli,01_HighQuality_Enhanced.jpg,Gaussian + Stretching,571012022000056,0.0,False
+A_data_asli,02_LowContrast.jpg,Gaussian + Stretching,571012022000056,0.0,False
+A_data_asli,03_Blurred.jpg,Gaussian + Stretching,571012022000056,0.0,False
+A_data_asli,04_HighNoise.jpg,Gaussian + Stretching,571012022000056,0.0,False
+A_data_asli,05_LowResolution_Upsampled.jpg,Gaussian + Stretching,571012022000056,0.0,False
+A_data_asli,06_Faded_Underexposed.jpg,Gaussian + Stretching,571012022000056,0.0,False
+A_data_asli,07_ColorShift_WarmTint.jpg,Gaussian + Stretching,571012022000056,0.0,False
+A_data_asli,08_JPEGCompression_Artifacts.jpg,Gaussian + Stretching,571012022000056,0.0,False
+A_data_asli,09_CombinedDegradation.jpg,Gaussian + Stretching,571012022000056,0.0,False
+A_data_asli,01_HighQuality_Enhanced.jpg,Median + CLAHE,571012022000056,0.0,False
+A_data_asli,02_LowContrast.jpg,Median + CLAHE,571012022000056,0.0,False
+A_data_asli,03_Blurred.jpg,Median + CLAHE,571012022000056,0.0,False
+A_data_asli,04_HighNoise.jpg,Median + CLAHE,571012022000056,0.0,False
+A_data_asli,05_LowResolution_Upsampled.jpg,Median + CLAHE,571012022000056,0.0,False
+A_data_asli,06_Faded_Underexposed.jpg,Median + CLAHE,571012022000056,0.0,False
+A_data_asli,07_ColorShift_WarmTint.jpg,Median + CLAHE,571012022000056,0.0,False
+A_data_asli,08_JPEGCompression_Artifacts.jpg,Median + CLAHE,571012022000056,0.0,False
+A_data_asli,09_CombinedDegradation.jpg,Median + CLAHE,571012022000056,0.0,False
+A_data_asli,01_HighQuality_Enhanced.jpg,Median + Stretch + Unsharp,571012022000056,0.0,False
+A_data_asli,02_LowContrast.jpg,Median + Stretch + Unsharp,571012022000056,0.0,False
+A_data_asli,03_Blurred.jpg,Median + Stretch + Unsharp,571012022000056,0.0,False
+A_data_asli,04_HighNoise.jpg,Median + Stretch + Unsharp,571012022000056,0.0,False
+A_data_asli,05_LowResolution_Upsampled.jpg,Median + Stretch + Unsharp,571012022000056,0.0,False
+A_data_asli,06_Faded_Underexposed.jpg,Median + Stretch + Unsharp,571012022000056,0.0,False
+A_data_asli,07_ColorShift_WarmTint.jpg,Median + Stretch + Unsharp,571012022000056,0.0,False
+A_data_asli,08_JPEGCompression_Artifacts.jpg,Median + Stretch + Unsharp,571012022000056,0.0,False
+A_data_asli,09_CombinedDegradation.jpg,Median + Stretch + Unsharp,571012022000056,0.0,False
+A_data_asli,01_HighQuality_Enhanced.jpg,Background Normalization,571012022000056,0.0,False
+A_data_asli,02_LowContrast.jpg,Background Normalization,571012022000056,0.0,False
+A_data_asli,03_Blurred.jpg,Background Normalization,571012022000056,0.0,False
+A_data_asli,04_HighNoise.jpg,Background Normalization,571012022000056,0.0,False
+A_data_asli,05_LowResolution_Upsampled.jpg,Background Normalization,571012022000056,0.0,False
+A_data_asli,06_Faded_Underexposed.jpg,Background Normalization,571012022000056,0.0,False
+A_data_asli,07_ColorShift_WarmTint.jpg,Background Normalization,571012022000056,0.0,False
+A_data_asli,08_JPEGCompression_Artifacts.jpg,Background Normalization,571012022000056,0.0,False
+A_data_asli,09_CombinedDegradation.jpg,Background Normalization,571012022000056,0.0,False
+B_stress_test,01_HighQuality_Enhanced.jpg | noise sigma=25,none (grayscale saja),571012022000056,0.0,False
+B_stress_test,01_HighQuality_Enhanced.jpg | noise sigma=45,none (grayscale saja),,1.0,False
+B_stress_test,01_HighQuality_Enhanced.jpg | blur sigma=2.5,none (grayscale saja),571012022000056,0.0,False
+B_stress_test,01_HighQuality_Enhanced.jpg | blur sigma=4,none (grayscale saja),71012022000056,0.0667,False
+B_stress_test,01_HighQuality_Enhanced.jpg | kontras 35%,none (grayscale saja),571012022000056,0.0,False
+B_stress_test,01_HighQuality_Enhanced.jpg | kontras 20%,none (grayscale saja),571012022000056,0.0,False
+B_stress_test,01_HighQuality_Enhanced.jpg | kombinasi (kontras 35% + blur 2 + noise 20),none (grayscale saja),,1.0,False
+B_stress_test,02_LowContrast.jpg | noise sigma=25,none (grayscale saja),,1.0,False
+B_stress_test,02_LowContrast.jpg | noise sigma=45,none (grayscale saja),,1.0,False
+B_stress_test,02_LowContrast.jpg | blur sigma=2.5,none (grayscale saja),571012022000056,0.0,False
+B_stress_test,02_LowContrast.jpg | blur sigma=4,none (grayscale saja),71012022000056,0.0667,False
+B_stress_test,02_LowContrast.jpg | kontras 35%,none (grayscale saja),571012022000056,0.0,False
+B_stress_test,02_LowContrast.jpg | kontras 20%,none (grayscale saja),571012022000056,0.0,False
+B_stress_test,02_LowContrast.jpg | kombinasi (kontras 35% + blur 2 + noise 20),none (grayscale saja),,1.0,False
+B_stress_test,03_Blurred.jpg | noise sigma=25,none (grayscale saja),,1.0,False
+B_stress_test,03_Blurred.jpg | noise sigma=45,none (grayscale saja),,1.0,False
+B_stress_test,03_Blurred.jpg | blur sigma=2.5,none (grayscale saja),571012022000056,0.0,False
+B_stress_test,03_Blurred.jpg | blur sigma=4,none (grayscale saja),71012022000056,0.0667,False
+B_stress_test,03_Blurred.jpg | kontras 35%,none (grayscale saja),571012022000056,0.0,False
+B_stress_test,03_Blurred.jpg | kontras 20%,none (grayscale saja),571012022000056,0.0,False
+B_stress_test,03_Blurred.jpg | kombinasi (kontras 35% + blur 2 + noise 20),none (grayscale saja),,1.0,False
+B_stress_test,04_HighNoise.jpg | noise sigma=25,none (grayscale saja),,1.0,False
+B_stress_test,04_HighNoise.jpg | noise sigma=45,none (grayscale saja),,1.0,False
+B_stress_test,04_HighNoise.jpg | blur sigma=2.5,none (grayscale saja),571012022000056,0.0,False
+B_stress_test,04_HighNoise.jpg | blur sigma=4,none (grayscale saja),571012022000056,0.0,False
+B_stress_test,04_HighNoise.jpg | kontras 35%,none (grayscale saja),571012022000056,0.0,False
+B_stress_test,04_HighNoise.jpg | kontras 20%,none (grayscale saja),571012022000056,0.0,False
+B_stress_test,04_HighNoise.jpg | kombinasi (kontras 35% + blur 2 + noise 20),none (grayscale saja),,1.0,False
+B_stress_test,05_LowResolution_Upsampled.jpg | noise sigma=25,none (grayscale saja),,1.0,False
+B_stress_test,05_LowResolution_Upsampled.jpg | noise sigma=45,none (grayscale saja),,1.0,False
+B_stress_test,05_LowResolution_Upsampled.jpg | blur sigma=2.5,none (grayscale saja),571012022000056,0.0,False
+B_stress_test,05_LowResolution_Upsampled.jpg | blur sigma=4,none (grayscale saja),571012022000056,0.0,False
+B_stress_test,05_LowResolution_Upsampled.jpg | kontras 35%,none (grayscale saja),571012022000056,0.0,False
+B_stress_test,05_LowResolution_Upsampled.jpg | kontras 20%,none (grayscale saja),571012022000056,0.0,False
+B_stress_test,05_LowResolution_Upsampled.jpg | kombinasi (kontras 35% + blur 2 + noise 20),none (grayscale saja),,1.0,False
+B_stress_test,06_Faded_Underexposed.jpg | noise sigma=25,none (grayscale saja),,1.0,False
+B_stress_test,06_Faded_Underexposed.jpg | noise sigma=45,none (grayscale saja),,1.0,False
+B_stress_test,06_Faded_Underexposed.jpg | blur sigma=2.5,none (grayscale saja),571012022000056,0.0,False
+B_stress_test,06_Faded_Underexposed.jpg | blur sigma=4,none (grayscale saja),71012022000056,0.0667,False
+B_stress_test,06_Faded_Underexposed.jpg | kontras 35%,none (grayscale saja),571012022000056,0.0,False
+B_stress_test,06_Faded_Underexposed.jpg | kontras 20%,none (grayscale saja),571012022000056,0.0,False
+B_stress_test,06_Faded_Underexposed.jpg | kombinasi (kontras 35% + blur 2 + noise 20),none (grayscale saja),,1.0,False
+B_stress_test,07_ColorShift_WarmTint.jpg | noise sigma=25,none (grayscale saja),,1.0,False
+B_stress_test,07_ColorShift_WarmTint.jpg | noise sigma=45,none (grayscale saja),,1.0,False
+B_stress_test,07_ColorShift_WarmTint.jpg | blur sigma=2.5,none (grayscale saja),571012022000056,0.0,False
+B_stress_test,07_ColorShift_WarmTint.jpg | blur sigma=4,none (grayscale saja),71012022000056,0.0667,False
+B_stress_test,07_ColorShift_WarmTint.jpg | kontras 35%,none (grayscale saja),571012022000056,0.0,False
+B_stress_test,07_ColorShift_WarmTint.jpg | kontras 20%,none (grayscale saja),571012022000056,0.0,False
+B_stress_test,07_ColorShift_WarmTint.jpg | kombinasi (kontras 35% + blur 2 + noise 20),none (grayscale saja),,1.0,False
+B_stress_test,08_JPEGCompression_Artifacts.jpg | noise sigma=25,none (grayscale saja),,1.0,False
+B_stress_test,08_JPEGCompression_Artifacts.jpg | noise sigma=45,none (grayscale saja),,1.0,False
+B_stress_test,08_JPEGCompression_Artifacts.jpg | blur sigma=2.5,none (grayscale saja),571012022000056,0.0,False
+B_stress_test,08_JPEGCompression_Artifacts.jpg | blur sigma=4,none (grayscale saja),571012022000056,0.0,False
+B_stress_test,08_JPEGCompression_Artifacts.jpg | kontras 35%,none (grayscale saja),571012022000056,0.0,False
+B_stress_test,08_JPEGCompression_Artifacts.jpg | kontras 20%,none (grayscale saja),571012022000056,0.0,False
+B_stress_test,08_JPEGCompression_Artifacts.jpg | kombinasi (kontras 35% + blur 2 + noise 20),none (grayscale saja),,1.0,False
+B_stress_test,09_CombinedDegradation.jpg | noise sigma=25,none (grayscale saja),,1.0,False
+B_stress_test,09_CombinedDegradation.jpg | noise sigma=45,none (grayscale saja),,1.0,False
+B_stress_test,09_CombinedDegradation.jpg | blur sigma=2.5,none (grayscale saja),571012022000056,0.0,False
+B_stress_test,09_CombinedDegradation.jpg | blur sigma=4,none (grayscale saja),571012022000056,0.0,False
+B_stress_test,09_CombinedDegradation.jpg | kontras 35%,none (grayscale saja),571012022000056,0.0,False
+B_stress_test,09_CombinedDegradation.jpg | kontras 20%,none (grayscale saja),571012022000056,0.0,False
+B_stress_test,09_CombinedDegradation.jpg | kombinasi (kontras 35% + blur 2 + noise 20),none (grayscale saja),,1.0,False
+B_stress_test,01_HighQuality_Enhanced.jpg | noise sigma=25,Histogram Equalization,,1.0,False
+B_stress_test,01_HighQuality_Enhanced.jpg | noise sigma=45,Histogram Equalization,,1.0,False
+B_stress_test,01_HighQuality_Enhanced.jpg | blur sigma=2.5,Histogram Equalization,,1.0,False
+B_stress_test,01_HighQuality_Enhanced.jpg | blur sigma=4,Histogram Equalization,,1.0,False
+B_stress_test,01_HighQuality_Enhanced.jpg | kontras 35%,Histogram Equalization,,1.0,False
+B_stress_test,01_HighQuality_Enhanced.jpg | kontras 20%,Histogram Equalization,,1.0,False
+B_stress_test,01_HighQuality_Enhanced.jpg | kombinasi (kontras 35% + blur 2 + noise 20),Histogram Equalization,,1.0,False
+B_stress_test,02_LowContrast.jpg | noise sigma=25,Histogram Equalization,,1.0,False
+B_stress_test,02_LowContrast.jpg | noise sigma=45,Histogram Equalization,,1.0,False
+B_stress_test,02_LowContrast.jpg | blur sigma=2.5,Histogram Equalization,,1.0,False
+B_stress_test,02_LowContrast.jpg | blur sigma=4,Histogram Equalization,,1.0,False
+B_stress_test,02_LowContrast.jpg | kontras 35%,Histogram Equalization,,1.0,False
+B_stress_test,02_LowContrast.jpg | kontras 20%,Histogram Equalization,,1.0,False
+B_stress_test,02_LowContrast.jpg | kombinasi (kontras 35% + blur 2 + noise 20),Histogram Equalization,,1.0,False
+B_stress_test,03_Blurred.jpg | noise sigma=25,Histogram Equalization,,1.0,False
+B_stress_test,03_Blurred.jpg | noise sigma=45,Histogram Equalization,,1.0,False
+B_stress_test,03_Blurred.jpg | blur sigma=2.5,Histogram Equalization,,1.0,False
+B_stress_test,03_Blurred.jpg | blur sigma=4,Histogram Equalization,,1.0,False
+B_stress_test,03_Blurred.jpg | kontras 35%,Histogram Equalization,,1.0,False
+B_stress_test,03_Blurred.jpg | kontras 20%,Histogram Equalization,,1.0,False
+B_stress_test,03_Blurred.jpg | kombinasi (kontras 35% + blur 2 + noise 20),Histogram Equalization,,1.0,False
+B_stress_test,04_HighNoise.jpg | noise sigma=25,Histogram Equalization,,1.0,False
+B_stress_test,04_HighNoise.jpg | noise sigma=45,Histogram Equalization,,1.0,False
+B_stress_test,04_HighNoise.jpg | blur sigma=2.5,Histogram Equalization,,1.0,False
+B_stress_test,04_HighNoise.jpg | blur sigma=4,Histogram Equalization,,1.0,False
+B_stress_test,04_HighNoise.jpg | kontras 35%,Histogram Equalization,,1.0,False
+B_stress_test,04_HighNoise.jpg | kontras 20%,Histogram Equalization,,1.0,False
+B_stress_test,04_HighNoise.jpg | kombinasi (kontras 35% + blur 2 + noise 20),Histogram Equalization,,1.0,False
+B_stress_test,05_LowResolution_Upsampled.jpg | noise sigma=25,Histogram Equalization,,1.0,False
+B_stress_test,05_LowResolution_Upsampled.jpg | noise sigma=45,Histogram Equalization,,1.0,False
+B_stress_test,05_LowResolution_Upsampled.jpg | blur sigma=2.5,Histogram Equalization,,1.0,False
+B_stress_test,05_LowResolution_Upsampled.jpg | blur sigma=4,Histogram Equalization,,1.0,False
+B_stress_test,05_LowResolution_Upsampled.jpg | kontras 35%,Histogram Equalization,,1.0,False
+B_stress_test,05_LowResolution_Upsampled.jpg | kontras 20%,Histogram Equalization,,1.0,False
+B_stress_test,05_LowResolution_Upsampled.jpg | kombinasi (kontras 35% + blur 2 + noise 20),Histogram Equalization,,1.0,False
+B_stress_test,06_Faded_Underexposed.jpg | noise sigma=25,Histogram Equalization,,1.0,False
+B_stress_test,06_Faded_Underexposed.jpg | noise sigma=45,Histogram Equalization,,1.0,False
+B_stress_test,06_Faded_Underexposed.jpg | blur sigma=2.5,Histogram Equalization,,1.0,False
+B_stress_test,06_Faded_Underexposed.jpg | blur sigma=4,Histogram Equalization,,1.0,False
+B_stress_test,06_Faded_Underexposed.jpg | kontras 35%,Histogram Equalization,,1.0,False
+B_stress_test,06_Faded_Underexposed.jpg | kontras 20%,Histogram Equalization,,1.0,False
+B_stress_test,06_Faded_Underexposed.jpg | kombinasi (kontras 35% + blur 2 + noise 20),Histogram Equalization,,1.0,False
+B_stress_test,07_ColorShift_WarmTint.jpg | noise sigma=25,Histogram Equalization,,1.0,False
+B_stress_test,07_ColorShift_WarmTint.jpg | noise sigma=45,Histogram Equalization,,1.0,False
+B_stress_test,07_ColorShift_WarmTint.jpg | blur sigma=2.5,Histogram Equalization,,1.0,False
+B_stress_test,07_ColorShift_WarmTint.jpg | blur sigma=4,Histogram Equalization,,1.0,False
+B_stress_test,07_ColorShift_WarmTint.jpg | kontras 35%,Histogram Equalization,,1.0,False
+B_stress_test,07_ColorShift_WarmTint.jpg | kontras 20%,Histogram Equalization,,1.0,False
+B_stress_test,07_ColorShift_WarmTint.jpg | kombinasi (kontras 35% + blur 2 + noise 20),Histogram Equalization,,1.0,False
+B_stress_test,08_JPEGCompression_Artifacts.jpg | noise sigma=25,Histogram Equalization,,1.0,False
+B_stress_test,08_JPEGCompression_Artifacts.jpg | noise sigma=45,Histogram Equalization,,1.0,False
+B_stress_test,08_JPEGCompression_Artifacts.jpg | blur sigma=2.5,Histogram Equalization,,1.0,False
+B_stress_test,08_JPEGCompression_Artifacts.jpg | blur sigma=4,Histogram Equalization,,1.0,False
+B_stress_test,08_JPEGCompression_Artifacts.jpg | kontras 35%,Histogram Equalization,,1.0,False
+B_stress_test,08_JPEGCompression_Artifacts.jpg | kontras 20%,Histogram Equalization,,1.0,False
+B_stress_test,08_JPEGCompression_Artifacts.jpg | kombinasi (kontras 35% + blur 2 + noise 20),Histogram Equalization,,1.0,False
+B_stress_test,09_CombinedDegradation.jpg | noise sigma=25,Histogram Equalization,,1.0,False
+B_stress_test,09_CombinedDegradation.jpg | noise sigma=45,Histogram Equalization,,1.0,False
+B_stress_test,09_CombinedDegradation.jpg | blur sigma=2.5,Histogram Equalization,,1.0,False
+B_stress_test,09_CombinedDegradation.jpg | blur sigma=4,Histogram Equalization,,1.0,False
+B_stress_test,09_CombinedDegradation.jpg | kontras 35%,Histogram Equalization,,1.0,False
+B_stress_test,09_CombinedDegradation.jpg | kontras 20%,Histogram Equalization,,1.0,False
+B_stress_test,09_CombinedDegradation.jpg | kombinasi (kontras 35% + blur 2 + noise 20),Histogram Equalization,,1.0,False
+B_stress_test,01_HighQuality_Enhanced.jpg | noise sigma=25,CLAHE,,1.0,False
+B_stress_test,01_HighQuality_Enhanced.jpg | noise sigma=45,CLAHE,,1.0,False
+B_stress_test,01_HighQuality_Enhanced.jpg | blur sigma=2.5,CLAHE,571012022000056,0.0,False
+B_stress_test,01_HighQuality_Enhanced.jpg | blur sigma=4,CLAHE,571012022000056,0.0,False
+B_stress_test,01_HighQuality_Enhanced.jpg | kontras 35%,CLAHE,571012022000056,0.0,False
+B_stress_test,01_HighQuality_Enhanced.jpg | kontras 20%,CLAHE,571012022000056,0.0,False
+B_stress_test,01_HighQuality_Enhanced.jpg | kombinasi (kontras 35% + blur 2 + noise 20),CLAHE,,1.0,False
+B_stress_test,02_LowContrast.jpg | noise sigma=25,CLAHE,,1.0,False
+B_stress_test,02_LowContrast.jpg | noise sigma=45,CLAHE,,1.0,False
+B_stress_test,02_LowContrast.jpg | blur sigma=2.5,CLAHE,571012022000056,0.0,False
+B_stress_test,02_LowContrast.jpg | blur sigma=4,CLAHE,571012022000056,0.0,False
+B_stress_test,02_LowContrast.jpg | kontras 35%,CLAHE,571012022000056,0.0,False
+B_stress_test,02_LowContrast.jpg | kontras 20%,CLAHE,571012022000056,0.0,False
+B_stress_test,02_LowContrast.jpg | kombinasi (kontras 35% + blur 2 + noise 20),CLAHE,,1.0,False
+B_stress_test,03_Blurred.jpg | noise sigma=25,CLAHE,,1.0,False
+B_stress_test,03_Blurred.jpg | noise sigma=45,CLAHE,,1.0,False
+B_stress_test,03_Blurred.jpg | blur sigma=2.5,CLAHE,571012022000056,0.0,False
+B_stress_test,03_Blurred.jpg | blur sigma=4,CLAHE,71012022000056,0.0667,False
+B_stress_test,03_Blurred.jpg | kontras 35%,CLAHE,571012022000056,0.0,False
+B_stress_test,03_Blurred.jpg | kontras 20%,CLAHE,571012022000056,0.0,False
+B_stress_test,03_Blurred.jpg | kombinasi (kontras 35% + blur 2 + noise 20),CLAHE,,1.0,False
+B_stress_test,04_HighNoise.jpg | noise sigma=25,CLAHE,,1.0,False
+B_stress_test,04_HighNoise.jpg | noise sigma=45,CLAHE,,1.0,False
+B_stress_test,04_HighNoise.jpg | blur sigma=2.5,CLAHE,571012022000056,0.0,False
+B_stress_test,04_HighNoise.jpg | blur sigma=4,CLAHE,571012022000056,0.0,False
+B_stress_test,04_HighNoise.jpg | kontras 35%,CLAHE,571012022000056,0.0,False
+B_stress_test,04_HighNoise.jpg | kontras 20%,CLAHE,571012022000056,0.0,False
+B_stress_test,04_HighNoise.jpg | kombinasi (kontras 35% + blur 2 + noise 20),CLAHE,,1.0,False
+B_stress_test,05_LowResolution_Upsampled.jpg | noise sigma=25,CLAHE,,1.0,False
+B_stress_test,05_LowResolution_Upsampled.jpg | noise sigma=45,CLAHE,,1.0,False
+B_stress_test,05_LowResolution_Upsampled.jpg | blur sigma=2.5,CLAHE,571012022000056,0.0,False
+B_stress_test,05_LowResolution_Upsampled.jpg | blur sigma=4,CLAHE,71012022000056,0.0667,False
+B_stress_test,05_LowResolution_Upsampled.jpg | kontras 35%,CLAHE,571012022000056,0.0,False
+B_stress_test,05_LowResolution_Upsampled.jpg | kontras 20%,CLAHE,571012022000056,0.0,False
+B_stress_test,05_LowResolution_Upsampled.jpg | kombinasi (kontras 35% + blur 2 + noise 20),CLAHE,,1.0,False
+B_stress_test,06_Faded_Underexposed.jpg | noise sigma=25,CLAHE,,1.0,False
+B_stress_test,06_Faded_Underexposed.jpg | noise sigma=45,CLAHE,,1.0,False
+B_stress_test,06_Faded_Underexposed.jpg | blur sigma=2.5,CLAHE,571012022000056,0.0,False
+B_stress_test,06_Faded_Underexposed.jpg | blur sigma=4,CLAHE,71012022000056,0.0667,False
+B_stress_test,06_Faded_Underexposed.jpg | kontras 35%,CLAHE,571012022000056,0.0,False
+B_stress_test,06_Faded_Underexposed.jpg | kontras 20%,CLAHE,571012022000056,0.0,False
+B_stress_test,06_Faded_Underexposed.jpg | kombinasi (kontras 35% + blur 2 + noise 20),CLAHE,,1.0,False
+B_stress_test,07_ColorShift_WarmTint.jpg | noise sigma=25,CLAHE,,1.0,False
+B_stress_test,07_ColorShift_WarmTint.jpg | noise sigma=45,CLAHE,,1.0,False
+B_stress_test,07_ColorShift_WarmTint.jpg | blur sigma=2.5,CLAHE,571012022000056,0.0,False
+B_stress_test,07_ColorShift_WarmTint.jpg | blur sigma=4,CLAHE,571012022000056,0.0,False
+B_stress_test,07_ColorShift_WarmTint.jpg | kontras 35%,CLAHE,571012022000056,0.0,False
+B_stress_test,07_ColorShift_WarmTint.jpg | kontras 20%,CLAHE,571012022000056,0.0,False
+B_stress_test,07_ColorShift_WarmTint.jpg | kombinasi (kontras 35% + blur 2 + noise 20),CLAHE,,1.0,False
+B_stress_test,08_JPEGCompression_Artifacts.jpg | noise sigma=25,CLAHE,,1.0,False
+B_stress_test,08_JPEGCompression_Artifacts.jpg | noise sigma=45,CLAHE,,1.0,False
+B_stress_test,08_JPEGCompression_Artifacts.jpg | blur sigma=2.5,CLAHE,571012022000056,0.0,False
+B_stress_test,08_JPEGCompression_Artifacts.jpg | blur sigma=4,CLAHE,571012022000056,0.0,False
+B_stress_test,08_JPEGCompression_Artifacts.jpg | kontras 35%,CLAHE,571012022000056,0.0,False
+B_stress_test,08_JPEGCompression_Artifacts.jpg | kontras 20%,CLAHE,571012022000056,0.0,False
+B_stress_test,08_JPEGCompression_Artifacts.jpg | kombinasi (kontras 35% + blur 2 + noise 20),CLAHE,,1.0,False
+B_stress_test,09_CombinedDegradation.jpg | noise sigma=25,CLAHE,,1.0,False
+B_stress_test,09_CombinedDegradation.jpg | noise sigma=45,CLAHE,,1.0,False
+B_stress_test,09_CombinedDegradation.jpg | blur sigma=2.5,CLAHE,571012022000056,0.0,False
+B_stress_test,09_CombinedDegradation.jpg | blur sigma=4,CLAHE,71012022000056,0.0667,False
+B_stress_test,09_CombinedDegradation.jpg | kontras 35%,CLAHE,571012022000056,0.0,False
+B_stress_test,09_CombinedDegradation.jpg | kontras 20%,CLAHE,571012022000056,0.0,False
+B_stress_test,09_CombinedDegradation.jpg | kombinasi (kontras 35% + blur 2 + noise 20),CLAHE,,1.0,False
+B_stress_test,01_HighQuality_Enhanced.jpg | noise sigma=25,Contrast Stretching,571012022000056,0.0,False
+B_stress_test,01_HighQuality_Enhanced.jpg | noise sigma=45,Contrast Stretching,,1.0,False
+B_stress_test,01_HighQuality_Enhanced.jpg | blur sigma=2.5,Contrast Stretching,571012022000056,0.0,False
+B_stress_test,01_HighQuality_Enhanced.jpg | blur sigma=4,Contrast Stretching,71012022000056,0.0667,False
+B_stress_test,01_HighQuality_Enhanced.jpg | kontras 35%,Contrast Stretching,571012022000056,0.0,False
+B_stress_test,01_HighQuality_Enhanced.jpg | kontras 20%,Contrast Stretching,571012022000056,0.0,False
+B_stress_test,01_HighQuality_Enhanced.jpg | kombinasi (kontras 35% + blur 2 + noise 20),Contrast Stretching,,1.0,False
+B_stress_test,02_LowContrast.jpg | noise sigma=25,Contrast Stretching,,1.0,False
+B_stress_test,02_LowContrast.jpg | noise sigma=45,Contrast Stretching,,1.0,False
+B_stress_test,02_LowContrast.jpg | blur sigma=2.5,Contrast Stretching,571012022000056,0.0,False
+B_stress_test,02_LowContrast.jpg | blur sigma=4,Contrast Stretching,571012022000056,0.0,False
+B_stress_test,02_LowContrast.jpg | kontras 35%,Contrast Stretching,571012022000056,0.0,False
+B_stress_test,02_LowContrast.jpg | kontras 20%,Contrast Stretching,571012022000056,0.0,False
+B_stress_test,02_LowContrast.jpg | kombinasi (kontras 35% + blur 2 + noise 20),Contrast Stretching,,1.0,False
+B_stress_test,03_Blurred.jpg | noise sigma=25,Contrast Stretching,,1.0,False
+B_stress_test,03_Blurred.jpg | noise sigma=45,Contrast Stretching,,1.0,False
+B_stress_test,03_Blurred.jpg | blur sigma=2.5,Contrast Stretching,571012022000056,0.0,False
+B_stress_test,03_Blurred.jpg | blur sigma=4,Contrast Stretching,71012022000056,0.0667,False
+B_stress_test,03_Blurred.jpg | kontras 35%,Contrast Stretching,571012022000056,0.0,False
+B_stress_test,03_Blurred.jpg | kontras 20%,Contrast Stretching,571012022000056,0.0,False
+B_stress_test,03_Blurred.jpg | kombinasi (kontras 35% + blur 2 + noise 20),Contrast Stretching,,1.0,False
+B_stress_test,04_HighNoise.jpg | noise sigma=25,Contrast Stretching,,1.0,False
+B_stress_test,04_HighNoise.jpg | noise sigma=45,Contrast Stretching,,1.0,False
+B_stress_test,04_HighNoise.jpg | blur sigma=2.5,Contrast Stretching,571012022000056,0.0,False
+B_stress_test,04_HighNoise.jpg | blur sigma=4,Contrast Stretching,71012022000056,0.0667,False
+B_stress_test,04_HighNoise.jpg | kontras 35%,Contrast Stretching,571012022000056,0.0,False
+B_stress_test,04_HighNoise.jpg | kontras 20%,Contrast Stretching,571012022000056,0.0,False
+B_stress_test,04_HighNoise.jpg | kombinasi (kontras 35% + blur 2 + noise 20),Contrast Stretching,,1.0,False
+B_stress_test,05_LowResolution_Upsampled.jpg | noise sigma=25,Contrast Stretching,,1.0,False
+B_stress_test,05_LowResolution_Upsampled.jpg | noise sigma=45,Contrast Stretching,,1.0,False
+B_stress_test,05_LowResolution_Upsampled.jpg | blur sigma=2.5,Contrast Stretching,571012022000056,0.0,False
+B_stress_test,05_LowResolution_Upsampled.jpg | blur sigma=4,Contrast Stretching,71012022000056,0.0667,False
+B_stress_test,05_LowResolution_Upsampled.jpg | kontras 35%,Contrast Stretching,571012022000056,0.0,False
+B_stress_test,05_LowResolution_Upsampled.jpg | kontras 20%,Contrast Stretching,571012022000056,0.0,False
+B_stress_test,05_LowResolution_Upsampled.jpg | kombinasi (kontras 35% + blur 2 + noise 20),Contrast Stretching,,1.0,False
+B_stress_test,06_Faded_Underexposed.jpg | noise sigma=25,Contrast Stretching,,1.0,False
+B_stress_test,06_Faded_Underexposed.jpg | noise sigma=45,Contrast Stretching,,1.0,False
+B_stress_test,06_Faded_Underexposed.jpg | blur sigma=2.5,Contrast Stretching,571012022000056,0.0,False
+B_stress_test,06_Faded_Underexposed.jpg | blur sigma=4,Contrast Stretching,71012022000056,0.0667,False
+B_stress_test,06_Faded_Underexposed.jpg | kontras 35%,Contrast Stretching,571012022000056,0.0,False
+B_stress_test,06_Faded_Underexposed.jpg | kontras 20%,Contrast Stretching,571012022000056,0.0,False
+B_stress_test,06_Faded_Underexposed.jpg | kombinasi (kontras 35% + blur 2 + noise 20),Contrast Stretching,,1.0,False
+B_stress_test,07_ColorShift_WarmTint.jpg | noise sigma=25,Contrast Stretching,,1.0,False
+B_stress_test,07_ColorShift_WarmTint.jpg | noise sigma=45,Contrast Stretching,,1.0,False
+B_stress_test,07_ColorShift_WarmTint.jpg | blur sigma=2.5,Contrast Stretching,571012022000056,0.0,False
+B_stress_test,07_ColorShift_WarmTint.jpg | blur sigma=4,Contrast Stretching,71012022000056,0.0667,False
+B_stress_test,07_ColorShift_WarmTint.jpg | kontras 35%,Contrast Stretching,571012022000056,0.0,False
+B_stress_test,07_ColorShift_WarmTint.jpg | kontras 20%,Contrast Stretching,571012022000056,0.0,False
+B_stress_test,07_ColorShift_WarmTint.jpg | kombinasi (kontras 35% + blur 2 + noise 20),Contrast Stretching,,1.0,False
+B_stress_test,08_JPEGCompression_Artifacts.jpg | noise sigma=25,Contrast Stretching,,1.0,False
+B_stress_test,08_JPEGCompression_Artifacts.jpg | noise sigma=45,Contrast Stretching,,1.0,False
+B_stress_test,08_JPEGCompression_Artifacts.jpg | blur sigma=2.5,Contrast Stretching,571012022000056,0.0,False
+B_stress_test,08_JPEGCompression_Artifacts.jpg | blur sigma=4,Contrast Stretching,71012022000056,0.0667,False
+B_stress_test,08_JPEGCompression_Artifacts.jpg | kontras 35%,Contrast Stretching,571012022000056,0.0,False
+B_stress_test,08_JPEGCompression_Artifacts.jpg | kontras 20%,Contrast Stretching,571012022000056,0.0,False
+B_stress_test,08_JPEGCompression_Artifacts.jpg | kombinasi (kontras 35% + blur 2 + noise 20),Contrast Stretching,,1.0,False
+B_stress_test,09_CombinedDegradation.jpg | noise sigma=25,Contrast Stretching,,1.0,False
+B_stress_test,09_CombinedDegradation.jpg | noise sigma=45,Contrast Stretching,,1.0,False
+B_stress_test,09_CombinedDegradation.jpg | blur sigma=2.5,Contrast Stretching,571012022000056,0.0,False
+B_stress_test,09_CombinedDegradation.jpg | blur sigma=4,Contrast Stretching,71012022000056,0.0667,False
+B_stress_test,09_CombinedDegradation.jpg | kontras 35%,Contrast Stretching,571012022000056,0.0,False
+B_stress_test,09_CombinedDegradation.jpg | kontras 20%,Contrast Stretching,571012022000056,0.0,False
+B_stress_test,09_CombinedDegradation.jpg | kombinasi (kontras 35% + blur 2 + noise 20),Contrast Stretching,,1.0,False
+B_stress_test,01_HighQuality_Enhanced.jpg | noise sigma=25,Brightness Adjustment,571012022000056,0.0,False
+B_stress_test,01_HighQuality_Enhanced.jpg | noise sigma=45,Brightness Adjustment,,1.0,False
+B_stress_test,01_HighQuality_Enhanced.jpg | blur sigma=2.5,Brightness Adjustment,571012022000056,0.0,False
+B_stress_test,01_HighQuality_Enhanced.jpg | blur sigma=4,Brightness Adjustment,71012022000056,0.0667,False
+B_stress_test,01_HighQuality_Enhanced.jpg | kontras 35%,Brightness Adjustment,571012022000056,0.0,False
+B_stress_test,01_HighQuality_Enhanced.jpg | kontras 20%,Brightness Adjustment,571012022000056,0.0,False
+B_stress_test,01_HighQuality_Enhanced.jpg | kombinasi (kontras 35% + blur 2 + noise 20),Brightness Adjustment,,1.0,False
+B_stress_test,02_LowContrast.jpg | noise sigma=25,Brightness Adjustment,,1.0,False
+B_stress_test,02_LowContrast.jpg | noise sigma=45,Brightness Adjustment,,1.0,False
+B_stress_test,02_LowContrast.jpg | blur sigma=2.5,Brightness Adjustment,71012022000056,0.0667,False
+B_stress_test,02_LowContrast.jpg | blur sigma=4,Brightness Adjustment,71012022000056,0.0667,False
+B_stress_test,02_LowContrast.jpg | kontras 35%,Brightness Adjustment,571012022000056,0.0,False
+B_stress_test,02_LowContrast.jpg | kontras 20%,Brightness Adjustment,571012022000056,0.0,False
+B_stress_test,02_LowContrast.jpg | kombinasi (kontras 35% + blur 2 + noise 20),Brightness Adjustment,,1.0,False
+B_stress_test,03_Blurred.jpg | noise sigma=25,Brightness Adjustment,,1.0,False
+B_stress_test,03_Blurred.jpg | noise sigma=45,Brightness Adjustment,,1.0,False
+B_stress_test,03_Blurred.jpg | blur sigma=2.5,Brightness Adjustment,71012022000056,0.0667,False
+B_stress_test,03_Blurred.jpg | blur sigma=4,Brightness Adjustment,71012022000056,0.0667,False
+B_stress_test,03_Blurred.jpg | kontras 35%,Brightness Adjustment,571012022000056,0.0,False
+B_stress_test,03_Blurred.jpg | kontras 20%,Brightness Adjustment,571012022000056,0.0,False
+B_stress_test,03_Blurred.jpg | kombinasi (kontras 35% + blur 2 + noise 20),Brightness Adjustment,,1.0,False
+B_stress_test,04_HighNoise.jpg | noise sigma=25,Brightness Adjustment,,1.0,False
+B_stress_test,04_HighNoise.jpg | noise sigma=45,Brightness Adjustment,,1.0,False
+B_stress_test,04_HighNoise.jpg | blur sigma=2.5,Brightness Adjustment,571012022000056,0.0,False
+B_stress_test,04_HighNoise.jpg | blur sigma=4,Brightness Adjustment,71012022000056,0.0667,False
+B_stress_test,04_HighNoise.jpg | kontras 35%,Brightness Adjustment,571012022000056,0.0,False
+B_stress_test,04_HighNoise.jpg | kontras 20%,Brightness Adjustment,571012022000056,0.0,False
+B_stress_test,04_HighNoise.jpg | kombinasi (kontras 35% + blur 2 + noise 20),Brightness Adjustment,,1.0,False
+B_stress_test,05_LowResolution_Upsampled.jpg | noise sigma=25,Brightness Adjustment,,1.0,False
+B_stress_test,05_LowResolution_Upsampled.jpg | noise sigma=45,Brightness Adjustment,,1.0,False
+B_stress_test,05_LowResolution_Upsampled.jpg | blur sigma=2.5,Brightness Adjustment,571012022000056,0.0,False
+B_stress_test,05_LowResolution_Upsampled.jpg | blur sigma=4,Brightness Adjustment,71012022000056,0.0667,False
+B_stress_test,05_LowResolution_Upsampled.jpg | kontras 35%,Brightness Adjustment,571012022000056,0.0,False
+B_stress_test,05_LowResolution_Upsampled.jpg | kontras 20%,Brightness Adjustment,571012022000056,0.0,False
+B_stress_test,05_LowResolution_Upsampled.jpg | kombinasi (kontras 35% + blur 2 + noise 20),Brightness Adjustment,,1.0,False
+B_stress_test,06_Faded_Underexposed.jpg | noise sigma=25,Brightness Adjustment,,1.0,False
+B_stress_test,06_Faded_Underexposed.jpg | noise sigma=45,Brightness Adjustment,,1.0,False
+B_stress_test,06_Faded_Underexposed.jpg | blur sigma=2.5,Brightness Adjustment,571012022000056,0.0,False
+B_stress_test,06_Faded_Underexposed.jpg | blur sigma=4,Brightness Adjustment,71012022000056,0.0667,False
+B_stress_test,06_Faded_Underexposed.jpg | kontras 35%,Brightness Adjustment,571012022000056,0.0,False
+B_stress_test,06_Faded_Underexposed.jpg | kontras 20%,Brightness Adjustment,571012022000056,0.0,False
+B_stress_test,06_Faded_Underexposed.jpg | kombinasi (kontras 35% + blur 2 + noise 20),Brightness Adjustment,,1.0,False
+B_stress_test,07_ColorShift_WarmTint.jpg | noise sigma=25,Brightness Adjustment,571012022000056,0.0,False
+B_stress_test,07_ColorShift_WarmTint.jpg | noise sigma=45,Brightness Adjustment,,1.0,False
+B_stress_test,07_ColorShift_WarmTint.jpg | blur sigma=2.5,Brightness Adjustment,571012022000056,0.0,False
+B_stress_test,07_ColorShift_WarmTint.jpg | blur sigma=4,Brightness Adjustment,571012022000056,0.0,False
+B_stress_test,07_ColorShift_WarmTint.jpg | kontras 35%,Brightness Adjustment,571012022000056,0.0,False
+B_stress_test,07_ColorShift_WarmTint.jpg | kontras 20%,Brightness Adjustment,571012022000056,0.0,False
+B_stress_test,07_ColorShift_WarmTint.jpg | kombinasi (kontras 35% + blur 2 + noise 20),Brightness Adjustment,,1.0,False
+B_stress_test,08_JPEGCompression_Artifacts.jpg | noise sigma=25,Brightness Adjustment,571012022000056,0.0,False
+B_stress_test,08_JPEGCompression_Artifacts.jpg | noise sigma=45,Brightness Adjustment,,1.0,False
+B_stress_test,08_JPEGCompression_Artifacts.jpg | blur sigma=2.5,Brightness Adjustment,571012022000056,0.0,False
+B_stress_test,08_JPEGCompression_Artifacts.jpg | blur sigma=4,Brightness Adjustment,71012022000056,0.0667,False
+B_stress_test,08_JPEGCompression_Artifacts.jpg | kontras 35%,Brightness Adjustment,571012022000056,0.0,False
+B_stress_test,08_JPEGCompression_Artifacts.jpg | kontras 20%,Brightness Adjustment,571012022000056,0.0,False
+B_stress_test,08_JPEGCompression_Artifacts.jpg | kombinasi (kontras 35% + blur 2 + noise 20),Brightness Adjustment,,1.0,False
+B_stress_test,09_CombinedDegradation.jpg | noise sigma=25,Brightness Adjustment,,1.0,False
+B_stress_test,09_CombinedDegradation.jpg | noise sigma=45,Brightness Adjustment,,1.0,False
+B_stress_test,09_CombinedDegradation.jpg | blur sigma=2.5,Brightness Adjustment,571012022000056,0.0,False
+B_stress_test,09_CombinedDegradation.jpg | blur sigma=4,Brightness Adjustment,571012022000056,0.0,False
+B_stress_test,09_CombinedDegradation.jpg | kontras 35%,Brightness Adjustment,571012022000056,0.0,False
+B_stress_test,09_CombinedDegradation.jpg | kontras 20%,Brightness Adjustment,571012022000056,0.0,False
+B_stress_test,09_CombinedDegradation.jpg | kombinasi (kontras 35% + blur 2 + noise 20),Brightness Adjustment,,1.0,False
+B_stress_test,01_HighQuality_Enhanced.jpg | noise sigma=25,Gamma Correction,571012022000056,0.0,False
+B_stress_test,01_HighQuality_Enhanced.jpg | noise sigma=45,Gamma Correction,,1.0,False
+B_stress_test,01_HighQuality_Enhanced.jpg | blur sigma=2.5,Gamma Correction,571012022000056,0.0,False
+B_stress_test,01_HighQuality_Enhanced.jpg | blur sigma=4,Gamma Correction,571012022000056,0.0,False
+B_stress_test,01_HighQuality_Enhanced.jpg | kontras 35%,Gamma Correction,571012022000056,0.0,False
+B_stress_test,01_HighQuality_Enhanced.jpg | kontras 20%,Gamma Correction,571012022000056,0.0,False
+B_stress_test,01_HighQuality_Enhanced.jpg | kombinasi (kontras 35% + blur 2 + noise 20),Gamma Correction,,1.0,False
+B_stress_test,02_LowContrast.jpg | noise sigma=25,Gamma Correction,,1.0,False
+B_stress_test,02_LowContrast.jpg | noise sigma=45,Gamma Correction,,1.0,False
+B_stress_test,02_LowContrast.jpg | blur sigma=2.5,Gamma Correction,571012022000056,0.0,False
+B_stress_test,02_LowContrast.jpg | blur sigma=4,Gamma Correction,71012022000056,0.0667,False
+B_stress_test,02_LowContrast.jpg | kontras 35%,Gamma Correction,571012022000056,0.0,False
+B_stress_test,02_LowContrast.jpg | kontras 20%,Gamma Correction,571012022000056,0.0,False
+B_stress_test,02_LowContrast.jpg | kombinasi (kontras 35% + blur 2 + noise 20),Gamma Correction,,1.0,False
+B_stress_test,03_Blurred.jpg | noise sigma=25,Gamma Correction,,1.0,False
+B_stress_test,03_Blurred.jpg | noise sigma=45,Gamma Correction,,1.0,False
+B_stress_test,03_Blurred.jpg | blur sigma=2.5,Gamma Correction,571012022000056,0.0,False
+B_stress_test,03_Blurred.jpg | blur sigma=4,Gamma Correction,71012022000056,0.0667,False
+B_stress_test,03_Blurred.jpg | kontras 35%,Gamma Correction,571012022000056,0.0,False
+B_stress_test,03_Blurred.jpg | kontras 20%,Gamma Correction,571012022000056,0.0,False
+B_stress_test,03_Blurred.jpg | kombinasi (kontras 35% + blur 2 + noise 20),Gamma Correction,,1.0,False
+B_stress_test,04_HighNoise.jpg | noise sigma=25,Gamma Correction,571012022000056,0.0,False
+B_stress_test,04_HighNoise.jpg | noise sigma=45,Gamma Correction,,1.0,False
+B_stress_test,04_HighNoise.jpg | blur sigma=2.5,Gamma Correction,571012022000056,0.0,False
+B_stress_test,04_HighNoise.jpg | blur sigma=4,Gamma Correction,571012022000056,0.0,False
+B_stress_test,04_HighNoise.jpg | kontras 35%,Gamma Correction,571012022000056,0.0,False
+B_stress_test,04_HighNoise.jpg | kontras 20%,Gamma Correction,571012022000056,0.0,False
+B_stress_test,04_HighNoise.jpg | kombinasi (kontras 35% + blur 2 + noise 20),Gamma Correction,,1.0,False
+B_stress_test,05_LowResolution_Upsampled.jpg | noise sigma=25,Gamma Correction,,1.0,False
+B_stress_test,05_LowResolution_Upsampled.jpg | noise sigma=45,Gamma Correction,,1.0,False
+B_stress_test,05_LowResolution_Upsampled.jpg | blur sigma=2.5,Gamma Correction,571012022000056,0.0,False
+B_stress_test,05_LowResolution_Upsampled.jpg | blur sigma=4,Gamma Correction,71012022000056,0.0667,False
+B_stress_test,05_LowResolution_Upsampled.jpg | kontras 35%,Gamma Correction,571012022000056,0.0,False
+B_stress_test,05_LowResolution_Upsampled.jpg | kontras 20%,Gamma Correction,571012022000056,0.0,False
+B_stress_test,05_LowResolution_Upsampled.jpg | kombinasi (kontras 35% + blur 2 + noise 20),Gamma Correction,,1.0,False
+B_stress_test,06_Faded_Underexposed.jpg | noise sigma=25,Gamma Correction,,1.0,False
+B_stress_test,06_Faded_Underexposed.jpg | noise sigma=45,Gamma Correction,,1.0,False
+B_stress_test,06_Faded_Underexposed.jpg | blur sigma=2.5,Gamma Correction,571012022000056,0.0,False
+B_stress_test,06_Faded_Underexposed.jpg | blur sigma=4,Gamma Correction,71012022000056,0.0667,False
+B_stress_test,06_Faded_Underexposed.jpg | kontras 35%,Gamma Correction,571012022000056,0.0,False
+B_stress_test,06_Faded_Underexposed.jpg | kontras 20%,Gamma Correction,571012022000056,0.0,False
+B_stress_test,06_Faded_Underexposed.jpg | kombinasi (kontras 35% + blur 2 + noise 20),Gamma Correction,,1.0,False
+B_stress_test,07_ColorShift_WarmTint.jpg | noise sigma=25,Gamma Correction,571012022000056,0.0,False
+B_stress_test,07_ColorShift_WarmTint.jpg | noise sigma=45,Gamma Correction,,1.0,False
+B_stress_test,07_ColorShift_WarmTint.jpg | blur sigma=2.5,Gamma Correction,571012022000056,0.0,False
+B_stress_test,07_ColorShift_WarmTint.jpg | blur sigma=4,Gamma Correction,571012022000056,0.0,False
+B_stress_test,07_ColorShift_WarmTint.jpg | kontras 35%,Gamma Correction,571012022000056,0.0,False
+B_stress_test,07_ColorShift_WarmTint.jpg | kontras 20%,Gamma Correction,571012022000056,0.0,False
+B_stress_test,07_ColorShift_WarmTint.jpg | kombinasi (kontras 35% + blur 2 + noise 20),Gamma Correction,,1.0,False
+B_stress_test,08_JPEGCompression_Artifacts.jpg | noise sigma=25,Gamma Correction,571012022000056,0.0,False
+B_stress_test,08_JPEGCompression_Artifacts.jpg | noise sigma=45,Gamma Correction,,1.0,False
+B_stress_test,08_JPEGCompression_Artifacts.jpg | blur sigma=2.5,Gamma Correction,571012022000056,0.0,False
+B_stress_test,08_JPEGCompression_Artifacts.jpg | blur sigma=4,Gamma Correction,71012022000056,0.0667,False
+B_stress_test,08_JPEGCompression_Artifacts.jpg | kontras 35%,Gamma Correction,571012022000056,0.0,False
+B_stress_test,08_JPEGCompression_Artifacts.jpg | kontras 20%,Gamma Correction,571012022000056,0.0,False
+B_stress_test,08_JPEGCompression_Artifacts.jpg | kombinasi (kontras 35% + blur 2 + noise 20),Gamma Correction,,1.0,False
+B_stress_test,09_CombinedDegradation.jpg | noise sigma=25,Gamma Correction,,1.0,False
+B_stress_test,09_CombinedDegradation.jpg | noise sigma=45,Gamma Correction,,1.0,False
+B_stress_test,09_CombinedDegradation.jpg | blur sigma=2.5,Gamma Correction,571012022000056,0.0,False
+B_stress_test,09_CombinedDegradation.jpg | blur sigma=4,Gamma Correction,571012022000056,0.0,False
+B_stress_test,09_CombinedDegradation.jpg | kontras 35%,Gamma Correction,571012022000056,0.0,False
+B_stress_test,09_CombinedDegradation.jpg | kontras 20%,Gamma Correction,571012022000056,0.0,False
+B_stress_test,09_CombinedDegradation.jpg | kombinasi (kontras 35% + blur 2 + noise 20),Gamma Correction,,1.0,False
+B_stress_test,01_HighQuality_Enhanced.jpg | noise sigma=25,Median + Stretching,571012022000056,0.0,False
+B_stress_test,01_HighQuality_Enhanced.jpg | noise sigma=45,Median + Stretching,571012022000056,0.0,False
+B_stress_test,01_HighQuality_Enhanced.jpg | blur sigma=2.5,Median + Stretching,571012022000056,0.0,False
+B_stress_test,01_HighQuality_Enhanced.jpg | blur sigma=4,Median + Stretching,571012022000056,0.0,False
+B_stress_test,01_HighQuality_Enhanced.jpg | kontras 35%,Median + Stretching,571012022000056,0.0,False
+B_stress_test,01_HighQuality_Enhanced.jpg | kontras 20%,Median + Stretching,571012022000056,0.0,False
+B_stress_test,01_HighQuality_Enhanced.jpg | kombinasi (kontras 35% + blur 2 + noise 20),Median + Stretching,,1.0,False
+B_stress_test,02_LowContrast.jpg | noise sigma=25,Median + Stretching,,1.0,False
+B_stress_test,02_LowContrast.jpg | noise sigma=45,Median + Stretching,,1.0,False
+B_stress_test,02_LowContrast.jpg | blur sigma=2.5,Median + Stretching,571012022000056,0.0,False
+B_stress_test,02_LowContrast.jpg | blur sigma=4,Median + Stretching,571012022000056,0.0,False
+B_stress_test,02_LowContrast.jpg | kontras 35%,Median + Stretching,571012022000056,0.0,False
+B_stress_test,02_LowContrast.jpg | kontras 20%,Median + Stretching,571012022000056,0.0,False
+B_stress_test,02_LowContrast.jpg | kombinasi (kontras 35% + blur 2 + noise 20),Median + Stretching,,1.0,False
+B_stress_test,03_Blurred.jpg | noise sigma=25,Median + Stretching,,1.0,False
+B_stress_test,03_Blurred.jpg | noise sigma=45,Median + Stretching,,1.0,False
+B_stress_test,03_Blurred.jpg | blur sigma=2.5,Median + Stretching,571012022000056,0.0,False
+B_stress_test,03_Blurred.jpg | blur sigma=4,Median + Stretching,71012022000056,0.0667,False
+B_stress_test,03_Blurred.jpg | kontras 35%,Median + Stretching,571012022000056,0.0,False
+B_stress_test,03_Blurred.jpg | kontras 20%,Median + Stretching,571012022000056,0.0,False
+B_stress_test,03_Blurred.jpg | kombinasi (kontras 35% + blur 2 + noise 20),Median + Stretching,,1.0,False
+B_stress_test,04_HighNoise.jpg | noise sigma=25,Median + Stretching,571012022000056,0.0,False
+B_stress_test,04_HighNoise.jpg | noise sigma=45,Median + Stretching,,1.0,False
+B_stress_test,04_HighNoise.jpg | blur sigma=2.5,Median + Stretching,571012022000056,0.0,False
+B_stress_test,04_HighNoise.jpg | blur sigma=4,Median + Stretching,71012022000056,0.0667,False
+B_stress_test,04_HighNoise.jpg | kontras 35%,Median + Stretching,571012022000056,0.0,False
+B_stress_test,04_HighNoise.jpg | kontras 20%,Median + Stretching,571012022000056,0.0,False
+B_stress_test,04_HighNoise.jpg | kombinasi (kontras 35% + blur 2 + noise 20),Median + Stretching,,1.0,False
+B_stress_test,05_LowResolution_Upsampled.jpg | noise sigma=25,Median + Stretching,571012022000056,0.0,False
+B_stress_test,05_LowResolution_Upsampled.jpg | noise sigma=45,Median + Stretching,,1.0,False
+B_stress_test,05_LowResolution_Upsampled.jpg | blur sigma=2.5,Median + Stretching,571012022000056,0.0,False
+B_stress_test,05_LowResolution_Upsampled.jpg | blur sigma=4,Median + Stretching,71012022000056,0.0667,False
+B_stress_test,05_LowResolution_Upsampled.jpg | kontras 35%,Median + Stretching,571012022000056,0.0,False
+B_stress_test,05_LowResolution_Upsampled.jpg | kontras 20%,Median + Stretching,571012022000056,0.0,False
+B_stress_test,05_LowResolution_Upsampled.jpg | kombinasi (kontras 35% + blur 2 + noise 20),Median + Stretching,,1.0,False
+B_stress_test,06_Faded_Underexposed.jpg | noise sigma=25,Median + Stretching,,1.0,False
+B_stress_test,06_Faded_Underexposed.jpg | noise sigma=45,Median + Stretching,,1.0,False
+B_stress_test,06_Faded_Underexposed.jpg | blur sigma=2.5,Median + Stretching,571012022000056,0.0,False
+B_stress_test,06_Faded_Underexposed.jpg | blur sigma=4,Median + Stretching,71012022000056,0.0667,False
+B_stress_test,06_Faded_Underexposed.jpg | kontras 35%,Median + Stretching,571012022000056,0.0,False
+B_stress_test,06_Faded_Underexposed.jpg | kontras 20%,Median + Stretching,571012022000056,0.0,False
+B_stress_test,06_Faded_Underexposed.jpg | kombinasi (kontras 35% + blur 2 + noise 20),Median + Stretching,,1.0,False
+B_stress_test,07_ColorShift_WarmTint.jpg | noise sigma=25,Median + Stretching,571012022000056,0.0,False
+B_stress_test,07_ColorShift_WarmTint.jpg | noise sigma=45,Median + Stretching,,1.0,False
+B_stress_test,07_ColorShift_WarmTint.jpg | blur sigma=2.5,Median + Stretching,571012022000056,0.0,False
+B_stress_test,07_ColorShift_WarmTint.jpg | blur sigma=4,Median + Stretching,71012022000056,0.0667,False
+B_stress_test,07_ColorShift_WarmTint.jpg | kontras 35%,Median + Stretching,571012022000056,0.0,False
+B_stress_test,07_ColorShift_WarmTint.jpg | kontras 20%,Median + Stretching,571012022000056,0.0,False
+B_stress_test,07_ColorShift_WarmTint.jpg | kombinasi (kontras 35% + blur 2 + noise 20),Median + Stretching,,1.0,False
+B_stress_test,08_JPEGCompression_Artifacts.jpg | noise sigma=25,Median + Stretching,571012022000056,0.0,False
+B_stress_test,08_JPEGCompression_Artifacts.jpg | noise sigma=45,Median + Stretching,,1.0,False
+B_stress_test,08_JPEGCompression_Artifacts.jpg | blur sigma=2.5,Median + Stretching,571012022000056,0.0,False
+B_stress_test,08_JPEGCompression_Artifacts.jpg | blur sigma=4,Median + Stretching,71012022000056,0.0667,False
+B_stress_test,08_JPEGCompression_Artifacts.jpg | kontras 35%,Median + Stretching,571012022000056,0.0,False
+B_stress_test,08_JPEGCompression_Artifacts.jpg | kontras 20%,Median + Stretching,571012022000056,0.0,False
+B_stress_test,08_JPEGCompression_Artifacts.jpg | kombinasi (kontras 35% + blur 2 + noise 20),Median + Stretching,,1.0,False
+B_stress_test,09_CombinedDegradation.jpg | noise sigma=25,Median + Stretching,,1.0,False
+B_stress_test,09_CombinedDegradation.jpg | noise sigma=45,Median + Stretching,,1.0,False
+B_stress_test,09_CombinedDegradation.jpg | blur sigma=2.5,Median + Stretching,571012022000056,0.0,False
+B_stress_test,09_CombinedDegradation.jpg | blur sigma=4,Median + Stretching,71012022000056,0.0667,False
+B_stress_test,09_CombinedDegradation.jpg | kontras 35%,Median + Stretching,571012022000056,0.0,False
+B_stress_test,09_CombinedDegradation.jpg | kontras 20%,Median + Stretching,571012022000056,0.0,False
+B_stress_test,09_CombinedDegradation.jpg | kombinasi (kontras 35% + blur 2 + noise 20),Median + Stretching,,1.0,False
+B_stress_test,01_HighQuality_Enhanced.jpg | noise sigma=25,Gaussian + Stretching,571012022000056,0.0,False
+B_stress_test,01_HighQuality_Enhanced.jpg | noise sigma=45,Gaussian + Stretching,571012022000056,0.0,False
+B_stress_test,01_HighQuality_Enhanced.jpg | blur sigma=2.5,Gaussian + Stretching,571012022000056,0.0,False
+B_stress_test,01_HighQuality_Enhanced.jpg | blur sigma=4,Gaussian + Stretching,71012022000056,0.0667,False
+B_stress_test,01_HighQuality_Enhanced.jpg | kontras 35%,Gaussian + Stretching,571012022000056,0.0,False
+B_stress_test,01_HighQuality_Enhanced.jpg | kontras 20%,Gaussian + Stretching,571012022000056,0.0,False
+B_stress_test,01_HighQuality_Enhanced.jpg | kombinasi (kontras 35% + blur 2 + noise 20),Gaussian + Stretching,,1.0,False
+B_stress_test,02_LowContrast.jpg | noise sigma=25,Gaussian + Stretching,571012022000056,0.0,False
+B_stress_test,02_LowContrast.jpg | noise sigma=45,Gaussian + Stretching,,1.0,False
+B_stress_test,02_LowContrast.jpg | blur sigma=2.5,Gaussian + Stretching,571012022000056,0.0,False
+B_stress_test,02_LowContrast.jpg | blur sigma=4,Gaussian + Stretching,71012022000056,0.0667,False
+B_stress_test,02_LowContrast.jpg | kontras 35%,Gaussian + Stretching,571012022000056,0.0,False
+B_stress_test,02_LowContrast.jpg | kontras 20%,Gaussian + Stretching,571012022000056,0.0,False
+B_stress_test,02_LowContrast.jpg | kombinasi (kontras 35% + blur 2 + noise 20),Gaussian + Stretching,,1.0,False
+B_stress_test,03_Blurred.jpg | noise sigma=25,Gaussian + Stretching,571012022000056,0.0,False
+B_stress_test,03_Blurred.jpg | noise sigma=45,Gaussian + Stretching,,1.0,False
+B_stress_test,03_Blurred.jpg | blur sigma=2.5,Gaussian + Stretching,571012022000056,0.0,False
+B_stress_test,03_Blurred.jpg | blur sigma=4,Gaussian + Stretching,71012022000056,0.0667,False
+B_stress_test,03_Blurred.jpg | kontras 35%,Gaussian + Stretching,571012022000056,0.0,False
+B_stress_test,03_Blurred.jpg | kontras 20%,Gaussian + Stretching,571012022000056,0.0,False
+B_stress_test,03_Blurred.jpg | kombinasi (kontras 35% + blur 2 + noise 20),Gaussian + Stretching,,1.0,False
+B_stress_test,04_HighNoise.jpg | noise sigma=25,Gaussian + Stretching,571012022000056,0.0,False
+B_stress_test,04_HighNoise.jpg | noise sigma=45,Gaussian + Stretching,,1.0,False
+B_stress_test,04_HighNoise.jpg | blur sigma=2.5,Gaussian + Stretching,571012022000056,0.0,False
+B_stress_test,04_HighNoise.jpg | blur sigma=4,Gaussian + Stretching,71012022000056,0.0667,False
+B_stress_test,04_HighNoise.jpg | kontras 35%,Gaussian + Stretching,571012022000056,0.0,False
+B_stress_test,04_HighNoise.jpg | kontras 20%,Gaussian + Stretching,571012022000056,0.0,False
+B_stress_test,04_HighNoise.jpg | kombinasi (kontras 35% + blur 2 + noise 20),Gaussian + Stretching,,1.0,False
+B_stress_test,05_LowResolution_Upsampled.jpg | noise sigma=25,Gaussian + Stretching,571012022000056,0.0,False
+B_stress_test,05_LowResolution_Upsampled.jpg | noise sigma=45,Gaussian + Stretching,,1.0,False
+B_stress_test,05_LowResolution_Upsampled.jpg | blur sigma=2.5,Gaussian + Stretching,571012022000056,0.0,False
+B_stress_test,05_LowResolution_Upsampled.jpg | blur sigma=4,Gaussian + Stretching,71012022000056,0.0667,False
+B_stress_test,05_LowResolution_Upsampled.jpg | kontras 35%,Gaussian + Stretching,571012022000056,0.0,False
+B_stress_test,05_LowResolution_Upsampled.jpg | kontras 20%,Gaussian + Stretching,571012022000056,0.0,False
+B_stress_test,05_LowResolution_Upsampled.jpg | kombinasi (kontras 35% + blur 2 + noise 20),Gaussian + Stretching,,1.0,False
+B_stress_test,06_Faded_Underexposed.jpg | noise sigma=25,Gaussian + Stretching,,1.0,False
+B_stress_test,06_Faded_Underexposed.jpg | noise sigma=45,Gaussian + Stretching,,1.0,False
+B_stress_test,06_Faded_Underexposed.jpg | blur sigma=2.5,Gaussian + Stretching,571012022000056,0.0,False
+B_stress_test,06_Faded_Underexposed.jpg | blur sigma=4,Gaussian + Stretching,71012022000056,0.0667,False
+B_stress_test,06_Faded_Underexposed.jpg | kontras 35%,Gaussian + Stretching,571012022000056,0.0,False
+B_stress_test,06_Faded_Underexposed.jpg | kontras 20%,Gaussian + Stretching,571012022000056,0.0,False
+B_stress_test,06_Faded_Underexposed.jpg | kombinasi (kontras 35% + blur 2 + noise 20),Gaussian + Stretching,,1.0,False
+B_stress_test,07_ColorShift_WarmTint.jpg | noise sigma=25,Gaussian + Stretching,571012022000056,0.0,False
+B_stress_test,07_ColorShift_WarmTint.jpg | noise sigma=45,Gaussian + Stretching,571012022000056,0.0,False
+B_stress_test,07_ColorShift_WarmTint.jpg | blur sigma=2.5,Gaussian + Stretching,571012022000056,0.0,False
+B_stress_test,07_ColorShift_WarmTint.jpg | blur sigma=4,Gaussian + Stretching,71012022000056,0.0667,False
+B_stress_test,07_ColorShift_WarmTint.jpg | kontras 35%,Gaussian + Stretching,571012022000056,0.0,False
+B_stress_test,07_ColorShift_WarmTint.jpg | kontras 20%,Gaussian + Stretching,571012022000056,0.0,False
+B_stress_test,07_ColorShift_WarmTint.jpg | kombinasi (kontras 35% + blur 2 + noise 20),Gaussian + Stretching,,1.0,False
+B_stress_test,08_JPEGCompression_Artifacts.jpg | noise sigma=25,Gaussian + Stretching,571012022000056,0.0,False
+B_stress_test,08_JPEGCompression_Artifacts.jpg | noise sigma=45,Gaussian + Stretching,571012022000056,0.0,False
+B_stress_test,08_JPEGCompression_Artifacts.jpg | blur sigma=2.5,Gaussian + Stretching,571012022000056,0.0,False
+B_stress_test,08_JPEGCompression_Artifacts.jpg | blur sigma=4,Gaussian + Stretching,571012022000056,0.0,False
+B_stress_test,08_JPEGCompression_Artifacts.jpg | kontras 35%,Gaussian + Stretching,571012022000056,0.0,False
+B_stress_test,08_JPEGCompression_Artifacts.jpg | kontras 20%,Gaussian + Stretching,571012022000056,0.0,False
+B_stress_test,08_JPEGCompression_Artifacts.jpg | kombinasi (kontras 35% + blur 2 + noise 20),Gaussian + Stretching,,1.0,False
+B_stress_test,09_CombinedDegradation.jpg | noise sigma=25,Gaussian + Stretching,,1.0,False
+B_stress_test,09_CombinedDegradation.jpg | noise sigma=45,Gaussian + Stretching,,1.0,False
+B_stress_test,09_CombinedDegradation.jpg | blur sigma=2.5,Gaussian + Stretching,571012022000056,0.0,False
+B_stress_test,09_CombinedDegradation.jpg | blur sigma=4,Gaussian + Stretching,71012022000056,0.0667,False
+B_stress_test,09_CombinedDegradation.jpg | kontras 35%,Gaussian + Stretching,571012022000056,0.0,False
+B_stress_test,09_CombinedDegradation.jpg | kontras 20%,Gaussian + Stretching,571012022000056,0.0,False
+B_stress_test,09_CombinedDegradation.jpg | kombinasi (kontras 35% + blur 2 + noise 20),Gaussian + Stretching,,1.0,False
+B_stress_test,01_HighQuality_Enhanced.jpg | noise sigma=25,Median + CLAHE,,1.0,False
+B_stress_test,01_HighQuality_Enhanced.jpg | noise sigma=45,Median + CLAHE,,1.0,False
+B_stress_test,01_HighQuality_Enhanced.jpg | blur sigma=2.5,Median + CLAHE,571012022000056,0.0,False
+B_stress_test,01_HighQuality_Enhanced.jpg | blur sigma=4,Median + CLAHE,571012022000056,0.0,False
+B_stress_test,01_HighQuality_Enhanced.jpg | kontras 35%,Median + CLAHE,571012022000056,0.0,False
+B_stress_test,01_HighQuality_Enhanced.jpg | kontras 20%,Median + CLAHE,571012022000056,0.0,False
+B_stress_test,01_HighQuality_Enhanced.jpg | kombinasi (kontras 35% + blur 2 + noise 20),Median + CLAHE,,1.0,False
+B_stress_test,02_LowContrast.jpg | noise sigma=25,Median + CLAHE,,1.0,False
+B_stress_test,02_LowContrast.jpg | noise sigma=45,Median + CLAHE,,1.0,False
+B_stress_test,02_LowContrast.jpg | blur sigma=2.5,Median + CLAHE,571012022000056,0.0,False
+B_stress_test,02_LowContrast.jpg | blur sigma=4,Median + CLAHE,571012022000056,0.0,False
+B_stress_test,02_LowContrast.jpg | kontras 35%,Median + CLAHE,571012022000056,0.0,False
+B_stress_test,02_LowContrast.jpg | kontras 20%,Median + CLAHE,571012022000056,0.0,False
+B_stress_test,02_LowContrast.jpg | kombinasi (kontras 35% + blur 2 + noise 20),Median + CLAHE,,1.0,False
+B_stress_test,03_Blurred.jpg | noise sigma=25,Median + CLAHE,,1.0,False
+B_stress_test,03_Blurred.jpg | noise sigma=45,Median + CLAHE,,1.0,False
+B_stress_test,03_Blurred.jpg | blur sigma=2.5,Median + CLAHE,571012022000056,0.0,False
+B_stress_test,03_Blurred.jpg | blur sigma=4,Median + CLAHE,71012022000056,0.0667,False
+B_stress_test,03_Blurred.jpg | kontras 35%,Median + CLAHE,571012022000056,0.0,False
+B_stress_test,03_Blurred.jpg | kontras 20%,Median + CLAHE,571012022000056,0.0,False
+B_stress_test,03_Blurred.jpg | kombinasi (kontras 35% + blur 2 + noise 20),Median + CLAHE,,1.0,False
+B_stress_test,04_HighNoise.jpg | noise sigma=25,Median + CLAHE,,1.0,False
+B_stress_test,04_HighNoise.jpg | noise sigma=45,Median + CLAHE,,1.0,False
+B_stress_test,04_HighNoise.jpg | blur sigma=2.5,Median + CLAHE,571012022000056,0.0,False
+B_stress_test,04_HighNoise.jpg | blur sigma=4,Median + CLAHE,571012022000056,0.0,False
+B_stress_test,04_HighNoise.jpg | kontras 35%,Median + CLAHE,571012022000056,0.0,False
+B_stress_test,04_HighNoise.jpg | kontras 20%,Median + CLAHE,571012022000056,0.0,False
+B_stress_test,04_HighNoise.jpg | kombinasi (kontras 35% + blur 2 + noise 20),Median + CLAHE,,1.0,False
+B_stress_test,05_LowResolution_Upsampled.jpg | noise sigma=25,Median + CLAHE,,1.0,False
+B_stress_test,05_LowResolution_Upsampled.jpg | noise sigma=45,Median + CLAHE,,1.0,False
+B_stress_test,05_LowResolution_Upsampled.jpg | blur sigma=2.5,Median + CLAHE,571012022000056,0.0,False
+B_stress_test,05_LowResolution_Upsampled.jpg | blur sigma=4,Median + CLAHE,71012022000056,0.0667,False
+B_stress_test,05_LowResolution_Upsampled.jpg | kontras 35%,Median + CLAHE,571012022000056,0.0,False
+B_stress_test,05_LowResolution_Upsampled.jpg | kontras 20%,Median + CLAHE,571012022000056,0.0,False
+B_stress_test,05_LowResolution_Upsampled.jpg | kombinasi (kontras 35% + blur 2 + noise 20),Median + CLAHE,,1.0,False
+B_stress_test,06_Faded_Underexposed.jpg | noise sigma=25,Median + CLAHE,,1.0,False
+B_stress_test,06_Faded_Underexposed.jpg | noise sigma=45,Median + CLAHE,,1.0,False
+B_stress_test,06_Faded_Underexposed.jpg | blur sigma=2.5,Median + CLAHE,571012022000056,0.0,False
+B_stress_test,06_Faded_Underexposed.jpg | blur sigma=4,Median + CLAHE,571012022000056,0.0,False
+B_stress_test,06_Faded_Underexposed.jpg | kontras 35%,Median + CLAHE,571012022000056,0.0,False
+B_stress_test,06_Faded_Underexposed.jpg | kontras 20%,Median + CLAHE,571012022000056,0.0,False
+B_stress_test,06_Faded_Underexposed.jpg | kombinasi (kontras 35% + blur 2 + noise 20),Median + CLAHE,,1.0,False
+B_stress_test,07_ColorShift_WarmTint.jpg | noise sigma=25,Median + CLAHE,,1.0,False
+B_stress_test,07_ColorShift_WarmTint.jpg | noise sigma=45,Median + CLAHE,,1.0,False
+B_stress_test,07_ColorShift_WarmTint.jpg | blur sigma=2.5,Median + CLAHE,571012022000056,0.0,False
+B_stress_test,07_ColorShift_WarmTint.jpg | blur sigma=4,Median + CLAHE,571012022000056,0.0,False
+B_stress_test,07_ColorShift_WarmTint.jpg | kontras 35%,Median + CLAHE,571012022000056,0.0,False
+B_stress_test,07_ColorShift_WarmTint.jpg | kontras 20%,Median + CLAHE,571012022000056,0.0,False
+B_stress_test,07_ColorShift_WarmTint.jpg | kombinasi (kontras 35% + blur 2 + noise 20),Median + CLAHE,,1.0,False
+B_stress_test,08_JPEGCompression_Artifacts.jpg | noise sigma=25,Median + CLAHE,,1.0,False
+B_stress_test,08_JPEGCompression_Artifacts.jpg | noise sigma=45,Median + CLAHE,,1.0,False
+B_stress_test,08_JPEGCompression_Artifacts.jpg | blur sigma=2.5,Median + CLAHE,571012022000056,0.0,False
+B_stress_test,08_JPEGCompression_Artifacts.jpg | blur sigma=4,Median + CLAHE,571012022000056,0.0,False
+B_stress_test,08_JPEGCompression_Artifacts.jpg | kontras 35%,Median + CLAHE,571012022000056,0.0,False
+B_stress_test,08_JPEGCompression_Artifacts.jpg | kontras 20%,Median + CLAHE,571012022000056,0.0,False
+B_stress_test,08_JPEGCompression_Artifacts.jpg | kombinasi (kontras 35% + blur 2 + noise 20),Median + CLAHE,,1.0,False
+B_stress_test,09_CombinedDegradation.jpg | noise sigma=25,Median + CLAHE,,1.0,False
+B_stress_test,09_CombinedDegradation.jpg | noise sigma=45,Median + CLAHE,,1.0,False
+B_stress_test,09_CombinedDegradation.jpg | blur sigma=2.5,Median + CLAHE,571012022000056,0.0,False
+B_stress_test,09_CombinedDegradation.jpg | blur sigma=4,Median + CLAHE,571012022000056,0.0,False
+B_stress_test,09_CombinedDegradation.jpg | kontras 35%,Median + CLAHE,571012022000056,0.0,False
+B_stress_test,09_CombinedDegradation.jpg | kontras 20%,Median + CLAHE,571012022000056,0.0,False
+B_stress_test,09_CombinedDegradation.jpg | kombinasi (kontras 35% + blur 2 + noise 20),Median + CLAHE,,1.0,False
+B_stress_test,01_HighQuality_Enhanced.jpg | noise sigma=25,Median + Stretch + Unsharp,,1.0,False
+B_stress_test,01_HighQuality_Enhanced.jpg | noise sigma=45,Median + Stretch + Unsharp,,1.0,False
+B_stress_test,01_HighQuality_Enhanced.jpg | blur sigma=2.5,Median + Stretch + Unsharp,571012022000056,0.0,False
+B_stress_test,01_HighQuality_Enhanced.jpg | blur sigma=4,Median + Stretch + Unsharp,571012022000056,0.0,False
+B_stress_test,01_HighQuality_Enhanced.jpg | kontras 35%,Median + Stretch + Unsharp,571012022000056,0.0,False
+B_stress_test,01_HighQuality_Enhanced.jpg | kontras 20%,Median + Stretch + Unsharp,571012022000056,0.0,False
+B_stress_test,01_HighQuality_Enhanced.jpg | kombinasi (kontras 35% + blur 2 + noise 20),Median + Stretch + Unsharp,,1.0,False
+B_stress_test,02_LowContrast.jpg | noise sigma=25,Median + Stretch + Unsharp,,1.0,False
+B_stress_test,02_LowContrast.jpg | noise sigma=45,Median + Stretch + Unsharp,,1.0,False
+B_stress_test,02_LowContrast.jpg | blur sigma=2.5,Median + Stretch + Unsharp,571012022000056,0.0,False
+B_stress_test,02_LowContrast.jpg | blur sigma=4,Median + Stretch + Unsharp,71012022000056,0.0667,False
+B_stress_test,02_LowContrast.jpg | kontras 35%,Median + Stretch + Unsharp,571012022000056,0.0,False
+B_stress_test,02_LowContrast.jpg | kontras 20%,Median + Stretch + Unsharp,571012022000056,0.0,False
+B_stress_test,02_LowContrast.jpg | kombinasi (kontras 35% + blur 2 + noise 20),Median + Stretch + Unsharp,,1.0,False
+B_stress_test,03_Blurred.jpg | noise sigma=25,Median + Stretch + Unsharp,,1.0,False
+B_stress_test,03_Blurred.jpg | noise sigma=45,Median + Stretch + Unsharp,,1.0,False
+B_stress_test,03_Blurred.jpg | blur sigma=2.5,Median + Stretch + Unsharp,571012022000056,0.0,False
+B_stress_test,03_Blurred.jpg | blur sigma=4,Median + Stretch + Unsharp,71012022000056,0.0667,False
+B_stress_test,03_Blurred.jpg | kontras 35%,Median + Stretch + Unsharp,571012022000056,0.0,False
+B_stress_test,03_Blurred.jpg | kontras 20%,Median + Stretch + Unsharp,571012022000056,0.0,False
+B_stress_test,03_Blurred.jpg | kombinasi (kontras 35% + blur 2 + noise 20),Median + Stretch + Unsharp,,1.0,False
+B_stress_test,04_HighNoise.jpg | noise sigma=25,Median + Stretch + Unsharp,,1.0,False
+B_stress_test,04_HighNoise.jpg | noise sigma=45,Median + Stretch + Unsharp,,1.0,False
+B_stress_test,04_HighNoise.jpg | blur sigma=2.5,Median + Stretch + Unsharp,571012022000056,0.0,False
+B_stress_test,04_HighNoise.jpg | blur sigma=4,Median + Stretch + Unsharp,571012022000056,0.0,False
+B_stress_test,04_HighNoise.jpg | kontras 35%,Median + Stretch + Unsharp,571012022000056,0.0,False
+B_stress_test,04_HighNoise.jpg | kontras 20%,Median + Stretch + Unsharp,571012022000056,0.0,False
+B_stress_test,04_HighNoise.jpg | kombinasi (kontras 35% + blur 2 + noise 20),Median + Stretch + Unsharp,,1.0,False
+B_stress_test,05_LowResolution_Upsampled.jpg | noise sigma=25,Median + Stretch + Unsharp,,1.0,False
+B_stress_test,05_LowResolution_Upsampled.jpg | noise sigma=45,Median + Stretch + Unsharp,,1.0,False
+B_stress_test,05_LowResolution_Upsampled.jpg | blur sigma=2.5,Median + Stretch + Unsharp,571012022000056,0.0,False
+B_stress_test,05_LowResolution_Upsampled.jpg | blur sigma=4,Median + Stretch + Unsharp,571012022000056,0.0,False
+B_stress_test,05_LowResolution_Upsampled.jpg | kontras 35%,Median + Stretch + Unsharp,571012022000056,0.0,False
+B_stress_test,05_LowResolution_Upsampled.jpg | kontras 20%,Median + Stretch + Unsharp,571012022000056,0.0,False
+B_stress_test,05_LowResolution_Upsampled.jpg | kombinasi (kontras 35% + blur 2 + noise 20),Median + Stretch + Unsharp,,1.0,False
+B_stress_test,06_Faded_Underexposed.jpg | noise sigma=25,Median + Stretch + Unsharp,,1.0,False
+B_stress_test,06_Faded_Underexposed.jpg | noise sigma=45,Median + Stretch + Unsharp,,1.0,False
+B_stress_test,06_Faded_Underexposed.jpg | blur sigma=2.5,Median + Stretch + Unsharp,571012022000056,0.0,False
+B_stress_test,06_Faded_Underexposed.jpg | blur sigma=4,Median + Stretch + Unsharp,71012022000056,0.0667,False
+B_stress_test,06_Faded_Underexposed.jpg | kontras 35%,Median + Stretch + Unsharp,571012022000056,0.0,False
+B_stress_test,06_Faded_Underexposed.jpg | kontras 20%,Median + Stretch + Unsharp,571012022000056,0.0,False
+B_stress_test,06_Faded_Underexposed.jpg | kombinasi (kontras 35% + blur 2 + noise 20),Median + Stretch + Unsharp,,1.0,False
+B_stress_test,07_ColorShift_WarmTint.jpg | noise sigma=25,Median + Stretch + Unsharp,,1.0,False
+B_stress_test,07_ColorShift_WarmTint.jpg | noise sigma=45,Median + Stretch + Unsharp,,1.0,False
+B_stress_test,07_ColorShift_WarmTint.jpg | blur sigma=2.5,Median + Stretch + Unsharp,571012022000056,0.0,False
+B_stress_test,07_ColorShift_WarmTint.jpg | blur sigma=4,Median + Stretch + Unsharp,71012022000056,0.0667,False
+B_stress_test,07_ColorShift_WarmTint.jpg | kontras 35%,Median + Stretch + Unsharp,571012022000056,0.0,False
+B_stress_test,07_ColorShift_WarmTint.jpg | kontras 20%,Median + Stretch + Unsharp,571012022000056,0.0,False
+B_stress_test,07_ColorShift_WarmTint.jpg | kombinasi (kontras 35% + blur 2 + noise 20),Median + Stretch + Unsharp,,1.0,False
+B_stress_test,08_JPEGCompression_Artifacts.jpg | noise sigma=25,Median + Stretch + Unsharp,,1.0,False
+B_stress_test,08_JPEGCompression_Artifacts.jpg | noise sigma=45,Median + Stretch + Unsharp,,1.0,False
+B_stress_test,08_JPEGCompression_Artifacts.jpg | blur sigma=2.5,Median + Stretch + Unsharp,571012022000056,0.0,False
+B_stress_test,08_JPEGCompression_Artifacts.jpg | blur sigma=4,Median + Stretch + Unsharp,571012022000056,0.0,False
+B_stress_test,08_JPEGCompression_Artifacts.jpg | kontras 35%,Median + Stretch + Unsharp,571012022000056,0.0,False
+B_stress_test,08_JPEGCompression_Artifacts.jpg | kontras 20%,Median + Stretch + Unsharp,571012022000056,0.0,False
+B_stress_test,08_JPEGCompression_Artifacts.jpg | kombinasi (kontras 35% + blur 2 + noise 20),Median + Stretch + Unsharp,,1.0,False
+B_stress_test,09_CombinedDegradation.jpg | noise sigma=25,Median + Stretch + Unsharp,,1.0,False
+B_stress_test,09_CombinedDegradation.jpg | noise sigma=45,Median + Stretch + Unsharp,,1.0,False
+B_stress_test,09_CombinedDegradation.jpg | blur sigma=2.5,Median + Stretch + Unsharp,571012022000056,0.0,False
+B_stress_test,09_CombinedDegradation.jpg | blur sigma=4,Median + Stretch + Unsharp,71012022000056,0.0667,False
+B_stress_test,09_CombinedDegradation.jpg | kontras 35%,Median + Stretch + Unsharp,571012022000056,0.0,False
+B_stress_test,09_CombinedDegradation.jpg | kontras 20%,Median + Stretch + Unsharp,571012022000056,0.0,False
+B_stress_test,09_CombinedDegradation.jpg | kombinasi (kontras 35% + blur 2 + noise 20),Median + Stretch + Unsharp,,1.0,False
+B_stress_test,01_HighQuality_Enhanced.jpg | noise sigma=25,Background Normalization,571012022000056,0.0,False
+B_stress_test,01_HighQuality_Enhanced.jpg | noise sigma=45,Background Normalization,571012022000056,0.0,False
+B_stress_test,01_HighQuality_Enhanced.jpg | blur sigma=2.5,Background Normalization,571012022000056,0.0,False
+B_stress_test,01_HighQuality_Enhanced.jpg | blur sigma=4,Background Normalization,71012022000086,0.1333,False
+B_stress_test,01_HighQuality_Enhanced.jpg | kontras 35%,Background Normalization,571012022000056,0.0,False
+B_stress_test,01_HighQuality_Enhanced.jpg | kontras 20%,Background Normalization,571012022000056,0.0,False
+B_stress_test,01_HighQuality_Enhanced.jpg | kombinasi (kontras 35% + blur 2 + noise 20),Background Normalization,,1.0,False
+B_stress_test,02_LowContrast.jpg | noise sigma=25,Background Normalization,,1.0,False
+B_stress_test,02_LowContrast.jpg | noise sigma=45,Background Normalization,,1.0,False
+B_stress_test,02_LowContrast.jpg | blur sigma=2.5,Background Normalization,571012022000056,0.0,False
+B_stress_test,02_LowContrast.jpg | blur sigma=4,Background Normalization,71012022000056,0.0667,False
+B_stress_test,02_LowContrast.jpg | kontras 35%,Background Normalization,571012022000056,0.0,False
+B_stress_test,02_LowContrast.jpg | kontras 20%,Background Normalization,571012022000056,0.0,False
+B_stress_test,02_LowContrast.jpg | kombinasi (kontras 35% + blur 2 + noise 20),Background Normalization,,1.0,False
+B_stress_test,03_Blurred.jpg | noise sigma=25,Background Normalization,571012022000056,0.0,False
+B_stress_test,03_Blurred.jpg | noise sigma=45,Background Normalization,,1.0,False
+B_stress_test,03_Blurred.jpg | blur sigma=2.5,Background Normalization,571012022000056,0.0,False
+B_stress_test,03_Blurred.jpg | blur sigma=4,Background Normalization,71012022000056,0.0667,False
+B_stress_test,03_Blurred.jpg | kontras 35%,Background Normalization,571012022000056,0.0,False
+B_stress_test,03_Blurred.jpg | kontras 20%,Background Normalization,571012022000056,0.0,False
+B_stress_test,03_Blurred.jpg | kombinasi (kontras 35% + blur 2 + noise 20),Background Normalization,,1.0,False
+B_stress_test,04_HighNoise.jpg | noise sigma=25,Background Normalization,571012022000056,0.0,False
+B_stress_test,04_HighNoise.jpg | noise sigma=45,Background Normalization,71012022000056,0.0667,False
+B_stress_test,04_HighNoise.jpg | blur sigma=2.5,Background Normalization,571012022000056,0.0,False
+B_stress_test,04_HighNoise.jpg | blur sigma=4,Background Normalization,71012022000056,0.0667,False
+B_stress_test,04_HighNoise.jpg | kontras 35%,Background Normalization,571012022000056,0.0,False
+B_stress_test,04_HighNoise.jpg | kontras 20%,Background Normalization,571012022000056,0.0,False
+B_stress_test,04_HighNoise.jpg | kombinasi (kontras 35% + blur 2 + noise 20),Background Normalization,,1.0,False
+B_stress_test,05_LowResolution_Upsampled.jpg | noise sigma=25,Background Normalization,571012022000056,0.0,False
+B_stress_test,05_LowResolution_Upsampled.jpg | noise sigma=45,Background Normalization,,1.0,False
+B_stress_test,05_LowResolution_Upsampled.jpg | blur sigma=2.5,Background Normalization,571012022000056,0.0,False
+B_stress_test,05_LowResolution_Upsampled.jpg | blur sigma=4,Background Normalization,71012022000056,0.0667,False
+B_stress_test,05_LowResolution_Upsampled.jpg | kontras 35%,Background Normalization,571012022000056,0.0,False
+B_stress_test,05_LowResolution_Upsampled.jpg | kontras 20%,Background Normalization,571012022000056,0.0,False
+B_stress_test,05_LowResolution_Upsampled.jpg | kombinasi (kontras 35% + blur 2 + noise 20),Background Normalization,,1.0,False
+B_stress_test,06_Faded_Underexposed.jpg | noise sigma=25,Background Normalization,,1.0,False
+B_stress_test,06_Faded_Underexposed.jpg | noise sigma=45,Background Normalization,,1.0,False
+B_stress_test,06_Faded_Underexposed.jpg | blur sigma=2.5,Background Normalization,571012022000056,0.0,False
+B_stress_test,06_Faded_Underexposed.jpg | blur sigma=4,Background Normalization,71012022000056,0.0667,False
+B_stress_test,06_Faded_Underexposed.jpg | kontras 35%,Background Normalization,571012022000056,0.0,False
+B_stress_test,06_Faded_Underexposed.jpg | kontras 20%,Background Normalization,571012022000056,0.0,False
+B_stress_test,06_Faded_Underexposed.jpg | kombinasi (kontras 35% + blur 2 + noise 20),Background Normalization,,1.0,False
+B_stress_test,07_ColorShift_WarmTint.jpg | noise sigma=25,Background Normalization,571012022000056,0.0,False
+B_stress_test,07_ColorShift_WarmTint.jpg | noise sigma=45,Background Normalization,,1.0,False
+B_stress_test,07_ColorShift_WarmTint.jpg | blur sigma=2.5,Background Normalization,571012022000056,0.0,False
+B_stress_test,07_ColorShift_WarmTint.jpg | blur sigma=4,Background Normalization,71012022000056,0.0667,False
+B_stress_test,07_ColorShift_WarmTint.jpg | kontras 35%,Background Normalization,571012022000056,0.0,False
+B_stress_test,07_ColorShift_WarmTint.jpg | kontras 20%,Background Normalization,571012022000056,0.0,False
+B_stress_test,07_ColorShift_WarmTint.jpg | kombinasi (kontras 35% + blur 2 + noise 20),Background Normalization,,1.0,False
+B_stress_test,08_JPEGCompression_Artifacts.jpg | noise sigma=25,Background Normalization,571012022000056,0.0,False
+B_stress_test,08_JPEGCompression_Artifacts.jpg | noise sigma=45,Background Normalization,71012022000056,0.0667,False
+B_stress_test,08_JPEGCompression_Artifacts.jpg | blur sigma=2.5,Background Normalization,571012022000056,0.0,False
+B_stress_test,08_JPEGCompression_Artifacts.jpg | blur sigma=4,Background Normalization,71012022000056,0.0667,False
+B_stress_test,08_JPEGCompression_Artifacts.jpg | kontras 35%,Background Normalization,571012022000056,0.0,False
+B_stress_test,08_JPEGCompression_Artifacts.jpg | kontras 20%,Background Normalization,571012022000056,0.0,False
+B_stress_test,08_JPEGCompression_Artifacts.jpg | kombinasi (kontras 35% + blur 2 + noise 20),Background Normalization,,1.0,False
+B_stress_test,09_CombinedDegradation.jpg | noise sigma=25,Background Normalization,,1.0,False
+B_stress_test,09_CombinedDegradation.jpg | noise sigma=45,Background Normalization,,1.0,False
+B_stress_test,09_CombinedDegradation.jpg | blur sigma=2.5,Background Normalization,571012022000056,0.0,False
+B_stress_test,09_CombinedDegradation.jpg | blur sigma=4,Background Normalization,71012022000056,0.0667,False
+B_stress_test,09_CombinedDegradation.jpg | kontras 35%,Background Normalization,571012022000056,0.0,False
+B_stress_test,09_CombinedDegradation.jpg | kontras 20%,Background Normalization,571012022000056,0.0,False
+B_stress_test,09_CombinedDegradation.jpg | kombinasi (kontras 35% + blur 2 + noise 20),Background Normalization,,1.0,False
